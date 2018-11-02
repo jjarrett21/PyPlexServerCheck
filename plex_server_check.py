@@ -32,5 +32,5 @@ if __name__ == '__main__':
         print('Wrong number of arguments')
     elif not server_test(argv[1], argv[2]):
         print('Unable to connect to the service %s %s.' % (argv[1].upper(), argv[2]))
-        
+
 
